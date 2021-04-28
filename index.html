@@ -11,7 +11,7 @@
 </head>
 <body>
     <div id="root">
-        <ol v-if="myArray.length > 0">
+        <ol v-if="myArray.length === mycounter">
             <li v-for="item in myArray">{{item }}</li>
             
         </ol>
